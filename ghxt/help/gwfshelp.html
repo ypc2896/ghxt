@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	<meta http-equiv="X-UA-Compatible" content="edge" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="cache-control" content="no-cache, must-revalidate" />
+	<meta http-equiv="expires" content="0" />
+  	<title>公文发送</title>
+    <link rel="stylesheet" type="text/css" href="../../ext/resources/css/ext-all.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/ext-icon.css"/>
+    <script type="text/javascript" src="../../ext/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="../../ext/ext-all.js"></script>
+    <script type="text/javascript" src="../../ext/ext-lang-zh_CN.js"></script>
+   
+    
+  </head>
+  <body>
+ <div><ul>
+        <li>1.发送公文主要是公文管理员添加公文，发送公文的操作</li>
+ 		<li>2.公文管理员仅能看到自己添加的公文，不能查看其它用户添加的公文。</li>
+ 		<li>3.在此模块增加公文时，机构ID被隐藏，取用户自身的机构ID。</li>
+ 		<li>4.发送公文时，选择用户，主任为按拟办。批示（局长），阅示（副局长），阅处（处长，副处长），办理（副处以下人员）。</li>
+ 		<li>5.发送公文，一个公文对某一个人只能发送一次，不能发送多次</li>
+ 		<li>6.发送拟办时，同时将公文状态修改为1待拟办，发送给批示人后，将公文状态修改为3待批示，发送给阅示人后将将公文状态修改为6待阅示，
+ 		发送给阅处人以后，将公文属性自动修改为7正阅处，阅处人发给办理人后，将公文状态修改为正办理。</li>
+ 		<li>7.阅处人，办理人，将公文办理完后，点办结，将公文状态修改为8已办结。办结操作一般由主承办人操作。</li>
+ 		<li>8.公文办结完成以后，由管理员将公文修改为9已归档，归档后，所有接件人均不能修改承办意见，只能查看文件内容和承办意见和情况。</li>
+ 		<li>9.附件单独上传，列表选择给公文，一个公文可以有多个附件。附件表字段ID、附件类（公文附件，邮箱附件等）、附件存放路径、附件属性（扫描件，文本件，数据件、排序）、绑定公文ID、上传日期、上传用户ID、附件名称，说明</li>
+ 		<li>10.附件存放FTP服务器上传方式，按上传时间，按年度分文件夹存放。</li>
+ 	</ul>
+ </div>
+  </body>
+</html>
