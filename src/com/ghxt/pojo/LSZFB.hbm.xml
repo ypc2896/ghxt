@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="com.ghxt.pojo.Lszfb" table="LSZFB">
+            <id name="zf001" type="java.lang.String" >
+    	<column name="ZF001" length="20"/>
+      <generator class="assigned"/>
+    </id>
+
+             
+<property name="zf002" type="java.lang.String"><column name="ZF002" length="20"/></property>              
+<property name="zf003" type="java.lang.String"><column name="ZF003" length="20"/></property>              
+<property name="zf004" type="java.lang.String"><column name="ZF004" length="20"/></property>              
+<property name="zf005" type="java.lang.String"><column name="ZF005" length="20"/></property>              
+<property name="zf006" type="java.math.BigDecimal"><column name="ZF006" length="14"/></property>          
+<property name="zf007" type="java.math.BigDecimal"><column name="ZF007" length="14"/></property>          
+<property name="zf008" type="java.math.BigDecimal"><column name="ZF008" length="14"/></property>          
+<property name="zf009" type="java.math.BigDecimal"><column name="ZF009" length="14"/></property>          
+<property name="zf010" type="java.math.BigDecimal"><column name="ZF010" length="14"/></property>          
+<property name="zf011" type="java.math.BigDecimal"><column name="ZF011" length="14"/></property>          
+<property name="zf012" type="java.lang.String"><column name="ZF012" length="1"/></property>               
+<property name="zf013" type="java.math.BigDecimal"><column name="ZF013" length="14"/></property>          
+<property name="zf014" type="java.math.BigDecimal"><column name="ZF014" length="14"/></property>          
+<property name="zf015" type="java.lang.String"><column name="ZF015" length="20"/></property>              
+<property name="zf016" type="java.lang.String"><column name="ZF016" length="20"/></property>              
+<property name="zf017" type="java.lang.String"><column name="ZF017" length="20"/></property>              
+<property name="zf018" type="java.lang.String"><column name="ZF018" length="20"/></property>              
+<property name="zf019" type="java.lang.String"><column name="ZF019" length="20"/></property>              
+<property name="zf020" type="java.lang.String"><column name="ZF020" length="20"/></property>              
+<property name="zf021" type="java.lang.String"><column name="ZF021" length="20"/></property>              
+<property name="zf022" type="java.lang.String"><column name="ZF022" length="20"/></property>              
+<property name="zf023" type="java.lang.String"><column name="ZF023" length="20"/></property>              
+<property name="zf024" type="java.lang.String"><column name="ZF024" length="20"/></property>              
+<property name="zf025" type="java.lang.String"><column name="ZF025" length="20"/></property>              
+<property name="zf026" type="java.lang.String"><column name="ZF026" length="20"/></property>              
+<property name="zf027" type="java.lang.String"><column name="ZF027" length="20"/></property>              
+<property name="zf028" type="java.lang.String"><column name="ZF028" length="20"/></property>              
+<property name="zf029" type="java.lang.String"><column name="ZF029" length="20"/></property>              
+<property name="zf030" type="java.math.BigDecimal"><column name="ZF030" length="14"/></property>          
+<property name="zf031" type="java.math.BigDecimal"><column name="ZF031" length="14"/></property>          
+<property name="zf032" type="java.lang.String"><column name="ZF032" length="1"/></property>               
+
+
+
+
+
+        
+        
+          </class>
+</hibernate-mapping>
