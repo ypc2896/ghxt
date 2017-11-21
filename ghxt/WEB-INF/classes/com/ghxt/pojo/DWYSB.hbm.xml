@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="com.ghxt.pojo.Dwysb" table="DWYSB">
+            <id name="aae061" type="java.lang.String" >
+    	<column name="AAE061" length="20"/>
+      <generator class="assigned"/>
+    </id>
+       <property name="aab001" type="java.lang.String">
+    <column name="AAB001" length="20"/>
+        </property>
+                <property name="aae062" type="java.lang.String">
+    <column name="AAE062" length="4"/>
+        </property>
+                <property name="aae063" type="java.math.BigDecimal">
+    <column name="AAE063" length="12"/>
+        </property>
+                <property name="aae064" type="java.lang.String">
+    <column name="AAE064" length="20"/>
+        </property>
+                <property name="aae065" type="java.lang.String">
+    <column name="AAE065" length="20"/>
+        </property>
+                <property name="aae072" type="java.math.BigDecimal">
+    <column name="AAE072" length="12"/>
+        </property>
+                <property name="aab003" type="java.lang.String">
+    <column name="AAB003" length="100"/>
+        </property>
+                <property name="aae073" type="java.math.BigDecimal">
+    <column name="AAE073" length="12"/>
+        </property>
+                <property name="aae074" type="java.math.BigDecimal">
+    <column name="AAE074" length="5"/>
+        </property>
+                <property name="aae075" type="java.math.BigDecimal">
+    <column name="AAE075" length="12"/>
+        </property>
+                <property name="aae076" type="java.math.BigDecimal">
+    <column name="AAE076" length="12"/>
+        </property>
+                <property name="aae077" type="java.math.BigDecimal">
+    <column name="AAE077" length="12"/>
+        </property>
+                <property name="aae078" type="java.math.BigDecimal">
+    <column name="AAE078" length="12"/>
+        </property>
+                <property name="aae079" type="java.math.BigDecimal">
+    <column name="AAE079" length="12"/>
+        </property>
+                <property name="aae080" type="java.lang.String">
+    <column name="AAE080" length="100"/>
+        </property>
+                <property name="aae081" type="java.math.BigDecimal">
+    <column name="AAE081" length="12"/>
+        </property>
+                <property name="aae082" type="java.math.BigDecimal">
+    <column name="AAE082" length="12"/>
+        </property>
+                <property name="aae083" type="java.lang.String">
+    <column name="AAE083" length="1"/>
+        </property>
+                <property name="aab005" type="java.lang.String">
+    <column name="AAB005" length="20"/>
+        </property>
+                <property name="aab006" type="java.lang.String">
+    <column name="AAB006" length="20"/>
+        </property>
+                <property name="aab007" type="java.lang.String">
+    <column name="AAB007" length="100"/>
+        </property>
+                <property name="aab011" type="java.lang.String">
+    <column name="AAB011" length="20"/>
+        </property>
+                <property name="aab012" type="java.lang.String">
+    <column name="AAB012" length="20"/>
+        </property>
+        <property name="aae084" type="java.lang.String">
+    				<column name="AAE084" length="1"/>
+        </property>
+        
+        <property name="aae085" type="java.lang.String">
+    				<column name="AAE085" length="100"/>
+        </property>        
+        
+        <property name="aae086" type="java.lang.String">
+    				<column name="AAE086" length="20"/>
+        </property>        
+        
+        
+          <property name="aae087" type="java.lang.String">
+    				<column name="AAE087" length="8"/>
+        </property>      
+        
+        <property name="aae088" type="java.lang.String">
+    				<column name="AAE088" length="20"/>
+        </property>       
+        
+         <property name="aae089" type="java.lang.String">
+    				<column name="AAE089" length="8"/>
+        </property>       
+        
+        <property name="aae090" type="java.lang.String">
+    				<column name="AAE090" length="200"/>
+        </property>        
+        
+        <property name="aae091" type="java.lang.String">
+    				<column name="AAE091" length="20"/>
+        </property>       
+        
+         <property name="aae092" type="java.lang.String">
+    				<column name="AAE092" length="8"/>
+        </property>       
+        
+         <property name="aae093" type="java.lang.String">
+    				<column name="AAE093" length="200"/>
+        </property>       
+        
+        <property name="aae094" type="java.lang.String">
+    				<column name="AAE094" length="20"/>
+        </property>       
+        
+         <property name="aae095" type="java.lang.String">
+    				<column name="AAE095" length="8"/>
+        </property>       
+        
+         <property name="aae096" type="java.lang.String">
+    				<column name="AAE096" length="200"/>
+        </property>        
+        
+          <property name="aae097" type="java.lang.String">
+    				<column name="AAE097" length="200"/>
+        </property>        
+          </class>
+</hibernate-mapping>
